@@ -49,7 +49,7 @@ export default function ReferralsPage() {
               </Button>
             </div>
             <p className="text-sm text-white/60 mt-3">
-              Share this link with friends. You'll earn 20% of their subscription fees for the first year!
+              Share this link with friends. You&apos;ll earn 20% of their subscription fees for the first year!
             </p>
           </CardContent>
         </Card>

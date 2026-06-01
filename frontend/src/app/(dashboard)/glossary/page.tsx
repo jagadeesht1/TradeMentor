@@ -45,7 +45,7 @@ const glossaryTerms = [
   },
   {
     term: 'Market Capitalization',
-    definition: 'The total market value of a company\'s outstanding shares (Price × Shares Outstanding).',
+    definition: "The total market value of a company's outstanding shares (Price × Shares Outstanding).",
     category: 'Valuation',
   },
 ];

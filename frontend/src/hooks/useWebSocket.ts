@@ -40,5 +40,5 @@ export function useWebSocket(symbols: string[] = []) {
     return () => {
       ws.close();
     };
-  }, [symbols.join(','), setQuotes]);
+  }, [symbols, setQuotes]);
 }
