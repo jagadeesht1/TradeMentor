@@ -25,7 +25,7 @@ const FRONTEND_URL = process.env.FRONTEND_URL ?? 'http://localhost:3000';
 app.use(helmet());
 app.use(
   cors({
-    origin: [FRONTEND_URL, 'http://localhost:3000'],
+    origin: ['https://frontend-lemon-eight-94.vercel.app', 'http://localhost:3000', FRONTEND_URL],
     credentials: true,
   })
 );
